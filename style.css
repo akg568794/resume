@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: rgb(245, 250, 245);
+    text-decoration: none;
+}
+/* .horizontal-list li a:hover{
+    color: aquamarine;
+    border-bottom: 1px solid white;
+    transition: color 0.5s, border-bottom 4s;
+} */
+
+.nav-menu li a {
+    transition: color 01s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: aquamarine;
+    border-bottom: 1px solid rgb(235, 230, 230);
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+    font-size:3rem ;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding:5px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgb(136, 161, 167);
+}
+
+#about{
+    height:auto;
+    width:100%;
+    position: relative;
+    text-align: center;
+    }
+#my-image{
+    height:15rem;
+    width: 15rem;
+    margin:auto;
+    margin-top: -15vh;
+    
+    
+    /* box-shadow: 0px 0px 6px 4px rgb(136, 161, 167); */
+    
+
+}
+#about{
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: black;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
