@@ -36,6 +36,7 @@ a{
   z-index: -1;
 }
 .nav-logo-text {
+  color:#343d68;
   margin-left: -1rem;
   font-size: 28px;
 }
